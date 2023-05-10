@@ -100,3 +100,48 @@
         margin-top: 10px;
     }
 }
+@media only screen and (max-width: 400px){
+    html{
+        font-size: 6.07px;
+    }
+    .top-header-row {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .contact-email {
+        display: none;
+    }
+    .banner-section .butn-wrap {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        margin-top: 30px!important;
+    }
+    .banner-section .butn-wrap a.butn-1{
+        margin: 0!important;
+    }
+    .banner-section .butn-wrap a.butn-2{
+        margin: 0;
+        margin-top: 20px;
+    }
+    input.form-input {
+        padding-right: 0;
+    }
+    form.form-wrap.subs-form {
+        display: block;
+    }
+    .section-x8 .butn.subscribe {
+        width: 100%;
+    }
+    .row{
+        padding: 0;
+        margin: 0;
+    }
+    .container{
+        padding: 0;
+        margin: 0;
+    }
+}
