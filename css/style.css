@@ -216,6 +216,9 @@ ul.social-ul {
     background-color: #e9e9e9;
     color: #18afd3;
 }
+.site-header {
+    padding: 5px 0;
+}
 .nav-logo {
     display: inline-flex;
     align-items: center;
