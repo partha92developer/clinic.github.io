@@ -114,11 +114,15 @@
     .contact-email {
         display: none;
     }
+    .banner-section h3, h2, p{
+        text-align: center;
+    }
     .banner-section .butn-wrap {
         display: flex;
         flex-direction: column;
         margin: 0;
         margin-top: 30px!important;
+        align-items: center;
     }
     .banner-section .butn-wrap a.butn-1{
         margin: 0!important;
