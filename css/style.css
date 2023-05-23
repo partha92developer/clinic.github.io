@@ -216,11 +216,18 @@ ul.social-ul {
     background-color: #e9e9e9;
     color: #18afd3;
 }
-
-.site-logo img{
-    height: 50px;
-	width: 50px;
-	object: cover;
+.nav-logo {
+    display: inline-flex;
+    align-items: center;
+}
+a.site-logo {
+    flex: 1;
+    margin-right: 10px;
+}
+a.site-logo img {
+    width: auto;
+    max-height: 50px;
+    transition: all 0.5s ease-in-out;
 }
 .nav-row{
     display: flex;
