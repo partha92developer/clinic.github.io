@@ -114,6 +114,9 @@
     .contact-email {
         display: none;
     }
+     banner-section h2{
+        font-size: 32px;
+    }
     .banner-section h3, h2, p{
         text-align: center;
     }
